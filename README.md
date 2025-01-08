@@ -10,8 +10,9 @@
 
 - []기한: 2025년 1월 11일까지
 - [x]방법: 해당 docs 읽고나서 실습 수행
-- []목표: 3개의 링크 내용 수행 후 내용을 정리한 글 작성
-  - 추가 학습 링크
+- [ ]목표: 아래의 과제들 달성성
+  - [x]3개의 링크 내용 수행 후 내용을 정리한 글 작성
+  - [ ] 추가 학습 링크
     - UI 표현하기 https://ko.react.dev/learn/describing-the-ui
     - 상호작용성 더하기 https://ko.react.dev/learn/adding-interactivity
     - State 관리하기 https://ko.react.dev/learn/managing-state
