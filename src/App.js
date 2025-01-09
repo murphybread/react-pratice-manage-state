@@ -103,14 +103,43 @@ export default function Game() {
   });
 
   return (
-    <div className="game">
-      <div className="game-board">
-        <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
+    <>
+      <div className="game">
+        <div className="game-board">
+          <Board
+            xIsNext={xIsNext}
+            squares={currentSquares}
+            onPlay={handlePlay}
+          />
+        </div>
+        <div className="game-info">
+          <h1>{currentMove}</h1>
+          <ol>{moves}</ol>
+        </div>
       </div>
-      <div className="game-info">
-        <h1>{currentMove}</h1>
-        <ol>{moves}</ol>
+
+      <div>
+        <Table row={3} />
       </div>
-    </div>
+    </>
+  );
+}
+
+// 아래에 컴포넌트를 작성해 보세요!
+
+function Table({ row }) {
+  const rows = [];
+  for (let i = 0; i < row; i++) {
+    rows.push(
+      <tr key={i}>
+        <td>Number {i}</td>
+      </tr>
+    );
+  }
+
+  return (
+    <table>
+      <tbody>{rows}</tbody>
+    </table>
   );
 }
