@@ -13,7 +13,8 @@
 - [ ]목표: 아래의 과제들 달성성
   - [x]3개의 링크 내용 수행 후 내용을 정리한 글 작성
   - [ ] 추가 학습 링크
-    - UI 표현하기 https://ko.react.dev/learn/describing-the-ui
+    - [x] UI 표현하기 https://ko.react.dev/learn/describing-the-ui
+          -> 작성 글 https://www.murphybooks.me/projects/library/kr/000/010/010-20/kr-010-20-a/
     - 상호작용성 더하기 https://ko.react.dev/learn/adding-interactivity
     - State 관리하기 https://ko.react.dev/learn/managing-state
     - 탈출구 https://ko.react.dev/learn/escape-hatches
